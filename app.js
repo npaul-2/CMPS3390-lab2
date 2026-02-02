@@ -7,7 +7,7 @@ interests.forEach((i, idx) => console.log(`${idx + 1}. ${i}`));
 
 console.log(banner("WELCOME TO MY CMPS 3390 APP"));
 
-console.log("Version:", "1.0.0");
+console.log("Version:", "BROKEN");
 
 console.log(banner("PROFILE"));
 
