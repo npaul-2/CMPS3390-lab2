@@ -1,9 +1,5 @@
-function banner(msg) {
+console.log(banner("INTERESTS"));
 
-  return `=== ${msg} ===`;
+const interests = ["Mobile dev", "UI/UX", "APIs"];
 
-}
-
-console.log(banner("WELCOME TO MY CMPS 3390 APP"));
-
-console.log("Version:", "1.0.0");
+interests.forEach((i, idx) => console.log(`${idx + 1}. ${i}`));
